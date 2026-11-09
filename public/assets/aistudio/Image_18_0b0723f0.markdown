@@ -1,0 +1,247 @@
+---
+name: Neo-Fintech Precision
+colors:
+  surface: '#f7f9fd'
+  surface-dim: '#d8dade'
+  surface-bright: '#f7f9fd'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f4f8'
+  surface-container: '#eceef2'
+  surface-container-high: '#e6e8ec'
+  surface-container-highest: '#e0e3e6'
+  on-surface: '#181c1f'
+  on-surface-variant: '#45464d'
+  inverse-surface: '#2d3134'
+  inverse-on-surface: '#eff1f5'
+  outline: '#76767e'
+  outline-variant: '#c6c6ce'
+  surface-tint: '#545d7c'
+  primary: '#000000'
+  on-primary: '#ffffff'
+  primary-container: '#101a35'
+  on-primary-container: '#7983a3'
+  inverse-primary: '#bcc5e9'
+  secondary: '#5e3add'
+  on-secondary: '#ffffff'
+  secondary-container: '#7758f8'
+  on-secondary-container: '#fffbff'
+  tertiary: '#000000'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#00174b'
+  on-tertiary-container: '#487cff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dbe1ff'
+  primary-fixed-dim: '#bcc5e9'
+  on-primary-fixed: '#101a35'
+  on-primary-fixed-variant: '#3c4663'
+  secondary-fixed: '#e6deff'
+  secondary-fixed-dim: '#cabeff'
+  on-secondary-fixed: '#1c0062'
+  on-secondary-fixed-variant: '#4819c8'
+  tertiary-fixed: '#dbe1ff'
+  tertiary-fixed-dim: '#b4c5ff'
+  on-tertiary-fixed: '#00174b'
+  on-tertiary-fixed-variant: '#003ea7'
+  background: '#f7f9fd'
+  on-background: '#181c1f'
+  surface-variant: '#e0e3e6'
+typography:
+  display-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 56px
+    fontWeight: '800'
+    lineHeight: 64px
+    letterSpacing: -0.03em
+  display-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 38px
+    fontWeight: '800'
+    lineHeight: 44px
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  title-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 18px
+    letterSpacing: 0.01em
+  label-xs:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  mono-currency:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.02em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  margin: 2rem
+  margin-sm: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system establishes an ultra-premium, high-trust digital banking aesthetic built for high-velocity fintech interactions, multi-currency treasury management, and everyday consumer banking. 
+
+The visual language balances the institutional authority of traditional private banking with the agile precision of modern European and Silicon Valley neo-banks. The emotional target is absolute financial clarity, unflinching security, and frictionless momentum.
+
+### Key Visual Tenets
+- **Architectural Calm:** Generous structured breathing room combined with dense, tabular data fidelity where required.
+- **Glassmorphic Precision:** Restrained translucent glass sheen used exclusively on floating overlays, navigation docks, and spatial debit card surfaces, avoiding ungrounded blur aesthetics.
+- **Micro-tactility:** Ultra-refined borders (1px) with delicate inner glows and sharp vector iconography to evoke mechanical Swiss instrument design.
+- **Financial Optics:** High-legibility numeric formatting, explicit transaction state coding, and non-distracting motion choreography.
+
+## Colors
+
+The palette leverages a deep foundation of midnight navy anchors contrasted against clean, high-luminance canvas tones, accented by vibrant, purposeful focal hues.
+
+### Palette Architecture
+- **Primary Anchor (`#101A35`):** Midnight Navy serves as primary text, primary button fills, key structural branding, and dominant display typography.
+- **Secondary Accent (`#6847E8`):** Royal Purple conveys premium tier status, premium tier badges, yield metrics, and focused state transitions.
+- **Interactive Accent (`#477BFF`):** Electric Blue commands attention for primary interactive links, tab selections, active toggles, and live transactional focus.
+- **Success & Positive Flow (`#16A879`):** Emerald Green designates inbound deposits, positive yield deltas, completed verifications, and verified ledger states.
+- **Warning & Hold (`#F5A623`):** Amber designates pending transfers, dual-authorization holds, and threshold warnings.
+- **Error & Negative Flow (`#E53935`):** Crimson indicates outbound expense bursts, critical alerts, and authorization declines.
+
+### Surface System
+- **Canvas Base:** `#F5F7FB` (cool, sterile, high-end paper finish)
+- **Surface Elevation 0 (Card/Tile):** `#FFFFFF`
+- **Surface Elevation 1 (Hover/Secondary Container):** `#ECEFF8`
+- **Border / Divider Substrate:** `rgba(16, 26, 53, 0.08)` on light surfaces; `rgba(255, 255, 255, 0.12)` on dark surfaces.
+
+## Typography
+
+The typographic hierarchy pairs Plus Jakarta Sans for structural branding, titles, and labels with Inter for high-density transactional ledgers, form inputs, and narrative body copy.
+
+### Usage Rules
+- **Numerical Alignment:** All financial ledger figures, balance breakdowns, and tabular displays must use `font-variant-numeric: tabular-nums lining-nums` via the Inter font to guarantee vertical decimal alignment.
+- **Display Weights:** Reserved strictly for primary portfolio balances, tier cards, and landing hero blocks.
+- **Labels & Tags:** Rendered in Plus Jakarta Sans SemiBold/Bold with slight positive letter spacing for optimal legibility at micro scales across mobile viewports.
+
+## Layout & Spacing
+
+The layout model utilizes a fluid 12-column system on desktop and tablet breakpoints, converting to a single-column stacked hierarchy on mobile. 
+
+### Breakpoints & Grid Mechanics
+- **Desktop (≥ 1280px):** 12 columns, max container width 1240px, `gutter: 1.5rem`, `margin: 2rem`. Sidebar fixed navigation (280px) + dynamic main content pane.
+- **Tablet (768px – 1279px):** 8 columns, `gutter: 1.25rem`, `margin: 1.5rem`. Collapsible rail navigation.
+- **Mobile (< 768px):** 4 columns (or single stack), `gutter-sm: 1rem`, `margin-sm: 1rem`. Bottom tab dock navigation.
+
+### Rhythm & Density
+- Spacing follows a modular 4px/8px incremental rhythm.
+- Dashboard metric tiles adhere to standard `space-lg` internal padding. Dense ledger records and table cells contract to `space-sm` vertical and `space-md` horizontal padding.
+
+## Elevation & Depth
+
+Visual depth is achieved through ambient, cool-tinted drop shadows layered with low-opacity borders, establishing a precise layered physical card architecture without visual clutter.
+
+### Elevation Hierarchy
+- **Level 0 (Flat/Base):** Default canvas (`#F5F7FB`) with zero elevation.
+- **Level 1 (Cards & Data Panels):** Background `#FFFFFF`, border `1px solid rgba(16, 26, 53, 0.06)`, shadow: `0px 2px 8px rgba(16, 26, 53, 0.04), 0px 1px 2px rgba(16, 26, 53, 0.02)`.
+- **Level 2 (Hover States, Flyouts & Dropdowns):** Background `#FFFFFF`, border `1px solid rgba(16, 26, 53, 0.08)`, shadow: `0px 12px 24px -4px rgba(16, 26, 53, 0.08), 0px 4px 8px -2px rgba(16, 26, 53, 0.04)`.
+- **Level 3 (Modals & Sheet Overlays):** Background `#FFFFFF`, shadow: `0px 24px 48px -12px rgba(16, 26, 53, 0.16), 0px 8px 16px -4px rgba(16, 26, 53, 0.06)`.
+- **Glassmorphic Floating Sheen (Action Docks, Top Bars):** `background: rgba(255, 255, 255, 0.82)`, `backdrop-filter: blur(16px)`, `border: 1px solid rgba(255, 255, 255, 0.4)`.
+- **Dark Modal / Debit Card Spatial Sheen:** Radial gradient combined with `border: 1px solid rgba(255, 255, 255, 0.15)` and `box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.2)`.
+
+## Shapes
+
+The design system standardizes on generous `rounded-2xl` corners for surface cards, establishing an approachable yet disciplined fintech aesthetic.
+
+### Radius Assignments
+- **Micro Radii (`rounded-sm` / 4px):** Checkboxes, inner tags, small indicators.
+- **Component Radii (`rounded` / 8px):** Buttons, text input fields, segmented control segments.
+- **Card Radii (`rounded-lg` / 16px):** Nested containers, inner modules, table cards.
+- **Container Radii (`rounded-xl` / 24px, `rounded-2xl`):** Primary overview cards, credit/debit card representations, bottom sheets, full modular dashboard widgets.
+- **Pill (`rounded-full`):** Status chips, currency indicator pills, user avatars, quick-filter pills.
+
+## Components
+
+### Buttons
+- **Primary:** Background `#101A35`, text `#FFFFFF`, radius 8px, padding `12px 20px`. Hover: `#1B2B54`. Active: subtle transform scale down (`0.98`).
+- **Interactive Action:** Background `#477BFF`, text `#FFFFFF`. Used exclusively for critical conversion flows (e.g., "Send Money", "Exchange").
+- **Secondary / Ghost:** Transparent background, border `1px solid rgba(16, 26, 53, 0.12)`, text `#101A35`. Hover: background `#ECEFF8`.
+
+### Input Fields
+- Container height 48px, background `#FFFFFF`, border `1px solid rgba(16, 26, 53, 0.12)`, radius 8px, padding `0 16px`.
+- **Focus State:** Border color `#477BFF`, shadow `0 0 0 3px rgba(71, 123, 255, 0.15)`.
+- **Amount Input:** Borderless variant with display typography, fixed currency adornment prefixes, and dynamic decimal scaling.
+
+### Financial Cards & Tiles
+- Master containers utilize `rounded-2xl` (24px radius), white fill, and subtle 1px border.
+- Virtual Card representation uses a 1.586 aspect ratio, Deep Navy gradient with Royal Purple edge flares, high-gloss micro-border, and monospace masked numbers.
+
+### Lists & Transaction Rows
+- Compact layout with 56px minimum row height.
+- Left-aligned brand avatar/category icon with rounded-full background (`#ECEFF8` or tonal status variant).
+- Right-aligned tabular typography: Green `#16A879` prepended with `+` for incoming funds; Primary `#101A35` for debits.
+
+### Chips & Badges
+- Height 24px, `rounded-full`, padding `2px 10px`.
+- Positive: Background `rgba(22, 168, 121, 0.1)`, text `#16A879`.
+- Warning: Background `rgba(245, 166, 35, 0.1)`, text `#F5A623`.
+- Purple Tier: Background `rgba(104, 71, 232, 0.1)`, text `#6847E8`.
+
+### Checkboxes & Radios
+- Checkboxes: 20px square with 4px border radius. When checked, filled with `#477BFF` with a crisp white 1.5px checkmark.
+- Radio buttons: 20px circular outer ring, selected state renders an 8px concentric `#477BFF` dot.

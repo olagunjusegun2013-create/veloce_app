@@ -1,0 +1,6 @@
+{
+  "name": "Veloce — Neo-Fintech Precision Banking",
+  "description": "Next-generation multi-currency treasury and precision digital banking platform featuring high-velocity transfers, spatial cards, yield vaults, and real-time ledger fidelity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

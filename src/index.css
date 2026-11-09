@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --primary-anchor: #101a35;
+    --secondary-accent: #6847e8;
+    --interactive-accent: #477bff;
+    --success-flow: #16a879;
+    --warning-hold: #f5a623;
+    --error-negative: #e53935;
+    --canvas-base: #f5f7fb;
+    --surface-elevation-0: #ffffff;
+    --surface-elevation-1: #eceff8;
+    --border-substrate: rgba(16, 26, 53, 0.08);
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: var(--canvas-base);
+    color: var(--primary-anchor);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-heading {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+}
+
+/* Glassmorphic Precision */
+.glass-dock {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.glass-dock-dark {
+  background: rgba(16, 26, 53, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* Spatial Card Sheens */
+.card-spatial-titanium {
+  background: radial-gradient(135% 120% at 20% 10%, #202a4e 0%, #101a35 50%, #090e1f 100%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.25), 0 16px 32px -8px rgba(16, 26, 53, 0.28);
+}
+
+.card-spatial-purple {
+  background: radial-gradient(135% 120% at 10% 10%, #7d57f5 0%, #5228ce 45%, #1d1145 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.3), 0 16px 32px -8px rgba(104, 71, 232, 0.35);
+}
+
+.card-spatial-emerald {
+  background: radial-gradient(135% 120% at 15% 15%, #1bc48d 0%, #0d845e 55%, #083c2b 100%);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.3), 0 16px 32px -8px rgba(22, 168, 121, 0.35);
+}
+
+/* Custom micro-scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(16, 26, 53, 0.12);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(16, 26, 53, 0.25);
+}
